@@ -24,3 +24,5 @@ b+geom_bar(aes(x=as.factor(region), y=observations), stat = "summary", fun.y ="m
 #create scatter plot with jitter
 s = b +geom_jitter(aes(x = as.factor(region), y = observations))
 s
+
+#Using scatter plot does make them look considerably differnt. Bar plot makes them all look equal, but scatter plot reveals different distribution.
